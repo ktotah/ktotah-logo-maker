@@ -31,7 +31,7 @@ To get started with SVG Logo Maker:
 Launch the application by typing `node index.js` in your terminal within the project directory. Follow the prompts to choose your logo's text, text color, shape, and shape color. Upon completion, the logo will be saved as`logo.svg` in your project directory.
 
 ## Video Demonstration and Screenshot
-A video demonstration of the SVG Logo Maker in action can be viewed [here](https://drive.google.com/file/d/170QfgcDx7ouC_nacqulmbwAJCq9Ms6_h/view?usp=sharing).
+A video demonstration of the SVG Logo Maker in action can be viewed [here](https://drive.google.com/file/d/17rb4AR3xwhQRcuBiydUAwoSd0Q_8yGdr/view?usp=sharing).
 
 Additionally, here is a screenshot demonstrating that command-line functionality of the SVG Logo Maker:
 
