@@ -2,31 +2,32 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const { Circle, Triangle, Square } = require('./lib/shapes');
 
+
 // Main function to run the application
 async function runApplication() {
     try {
         const answers = await inquirer.prompt([
-            // Question for user input on logo shape
-            {
-                type: 'list',
-                name: 'shape',
-                message: 'Choose a shape:',
-                choices: ['Circle', 'Triangle', 'Square']
-            },
-            //  Questions for user input on logo text
+            //  Questions for user input on text
             {
                 type: 'input',
                 name: 'text',
                 message: 'Enter up to three characters for the logo:',
                 validate: input => input.length <=3 ? true : 'Text must be up to three characters.'
             },
-            // Question for user input on logo text color
+            // Question for user input on text color
             {
                 type: 'input',
                 name: 'textColor',
                 message: 'Enter the text color (keyword or hex):'
             },
-            // Question for user input on logo shape color
+             // Question for user input on shape
+             {
+                type: 'list',
+                name: 'shape',
+                message: 'Choose a shape:',
+                choices: ['Circle', 'Triangle', 'Square']
+            },
+            // Question for user input on shape color
             {
                 type: 'input',
                 name: 'color',
