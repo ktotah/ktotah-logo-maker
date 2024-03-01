@@ -13,6 +13,7 @@ The SVG Logo Maker is a Node.js command-line application that empowers users to 
 * [Installation](#installation)
 * [Usage](#usage)
 * [Video Demonstration and Screenshot](#video-demonstration-and-screenshot)
+* [Generated Example SVG Logos](#generated-example-svg-logos)
 * [Tests](#tests)
 * [License](#license)
 * [Questions](#questions)
@@ -30,11 +31,14 @@ To get started with SVG Logo Maker:
 Launch the application by typing `node index.js` in your terminal within the project directory. Follow the prompts to choose your logo's text, text color, shape, and shape color. Upon completion, the logo will be saved as`logo.svg` in your project directory.
 
 ## Video Demonstration and Screenshot
-A video demonstration of the SVG Logo Maker in action can be viewed [here](https://drive.google.com/file/d/170QfgcDx7ouC_nacqulmbwAJCq9Ms6_h/view?usp=sharing). 
+A video demonstration of the SVG Logo Maker in action can be viewed [here](https://drive.google.com/file/d/170QfgcDx7ouC_nacqulmbwAJCq9Ms6_h/view?usp=sharing).
 
 Additionally, here is a screenshot demonstrating that command-line functionality of the SVG Logo Maker:
 
 ![README Generator Screenshot](./media/Screenshot.png)
+
+## Generated Example SVG Logos
+Here are some example SVG logos that was generated using this application: ![SVG Logo Example 1](./examples/example1.svg) ![SVG Logo Example 2](./examples/example2.svg) ![SVG Logo Example 3](./examples/example3.svg)
 
 ## Tests
 SVG Logo Maker includes a suite of Jest tests to ensure each component functions correctly. To run these tests, execute `npm test` in the project directory. These tests verify the application's ability to render SVGs accurately based on user input.
