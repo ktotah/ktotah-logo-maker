@@ -38,7 +38,10 @@ Additionally, here is a screenshot demonstrating that command-line functionality
 ![README Generator Screenshot](./media/Screenshot.png)
 
 ## Generated Example SVG Logos
-Here are some example SVG logos that was generated using this application: ![SVG Logo Example 1](./examples/example1.svg) ![SVG Logo Example 2](./examples/example2.svg) ![SVG Logo Example 3](./examples/example3.svg)
+Here are some example SVG logos that was generated using this application: 
+![SVG Logo Example 1](./examples/example1.svg) 
+![SVG Logo Example 2](./examples/example2.svg) 
+![SVG Logo Example 3](./examples/example3.svg)
 
 ## Tests
 SVG Logo Maker includes a suite of Jest tests to ensure each component functions correctly. To run these tests, execute `npm test` in the project directory. These tests verify the application's ability to render SVGs accurately based on user input.
