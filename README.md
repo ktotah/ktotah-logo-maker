@@ -38,14 +38,14 @@ Additionally, here is a screenshot demonstrating that command-line functionality
 ![SVG Logo Maker Screenshot](./media/screenshot.png)
 
 ## Generated Example SVG Logos
-Here are some example SVG logos that was generated using this application: 
+Here are some example SVG logos that were generated using this application: 
 ![SVG Logo Example 1](./examples/example1.svg) 
 ![SVG Logo Example 2](./examples/example2.svg) 
 ![SVG Logo Example 3](./examples/example3.svg)
 ![SVG Logo Example 4](./examples/example4.svg)
 
 ## Tests
-SVG Logo Maker includes a suite of Jest tests to ensure each component functions correctly. To run these tests, execute `npm test` in the project directory. These tests verify the application's ability to render SVGs accurately based on user input.
+The SVG Logo Maker includes a suite of Jest tests to ensure each component functions correctly. To run these tests, execute `npm test` in the project directory. These tests verify the application's ability to render SVGs accurately based on user input.
   
 ## License
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
